@@ -25,15 +25,15 @@
 
 package org.nkiesel.backport.java.util;
 
+import org.nkiesel.backport.java.util.Objects;
 import java.util.Arrays;
-import java.util.Objects;
 
 import java.io.FilterOutputStream;
 import java.io.InputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.nio.ByteBuffer;
-import java.nio.charset.StandardCharsets;
+import org.nkiesel.backport.java.nio.charset.StandardCharsets;
 
 /**
  * This class consists exclusively of static methods for obtaining
