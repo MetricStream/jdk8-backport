@@ -23,7 +23,10 @@
  * questions.
  */
 
-package java.util;
+package org.nkiesel.backport.java.util;
+
+import java.util.Arrays;
+import java.util.Objects;
 
 import java.io.FilterOutputStream;
 import java.io.InputStream;
