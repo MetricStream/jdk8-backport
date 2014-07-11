@@ -34,9 +34,9 @@ import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Base64;
-import java.util.Base64.Decoder;
-import java.util.Base64.Encoder;
+import org.nkiesel.backport.java.util.Base64;
+import org.nkiesel.backport.java.util.Base64.Decoder;
+import org.nkiesel.backport.java.util.Base64.Encoder;
 import java.util.Objects;
 import java.util.Random;
 

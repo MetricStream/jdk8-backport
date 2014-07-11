@@ -28,7 +28,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.nio.ByteBuffer;
 
-import java.util.Base64;
+import org.nkiesel.backport.java.util.Base64;
 
 import static java.nio.charset.StandardCharsets.US_ASCII;
 

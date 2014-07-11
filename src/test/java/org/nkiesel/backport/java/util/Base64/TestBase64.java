@@ -34,7 +34,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.nio.ByteBuffer;
 import java.util.Arrays;
-import java.util.Base64;
+import org.nkiesel.backport.java.util.Base64;
 import java.util.Random;
 
 public class TestBase64 {
@@ -406,7 +406,7 @@ public class TestBase64 {
             Base64.getMimeDecoder()
         };
 
-        for (Base64.Decoder dec : decs) {
+        for (final Base64.Decoder dec : decs) {
             for (int i = 0; i < data.length; i += 3) {
                 final String srcStr = (String)data[i];
                 final byte[] srcBytes = srcStr.getBytes("ASCII");
