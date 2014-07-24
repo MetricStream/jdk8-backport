@@ -3,13 +3,14 @@
     "http://knitknot.info/DTD/bee.dtd" [
       <!ENTITY env SYSTEM "./env.xml">
       <!ENTITY project "jdk8-backport">
+      <!ENTITY version "1.0">
       <!ENTITY build_directory "lib">
       <!ENTITY source_directory "src/main/java"> <!-- change if differs -->
       <!ENTITY doc_directory "doc"> <!-- change if differs -->
-      <!ENTITY build_file "&project;.jar"> <!-- change if differs -->
+      <!ENTITY build_file "&project;-&version;.jar"> <!-- change if differs -->
       <!ENTITY domain "org">  <!-- change if differs -->
       <!ENTITY resources "&domain;.&project;.resources">
-      <!ENTITY manifestf ""> <!-- type relative path to manifest -->
+      <!ENTITY manifestf "manifest.mf"> <!-- type relative path to manifest -->
       <!ENTITY main_class "&domain;.">  <!-- type main class for run -->
       ]>
 <!-- $Id$

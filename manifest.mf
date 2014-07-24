@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Name: org/nkiesel/backport/java/util/
+Specification-Title: Java 8 util backport
+Specification-Version: 1.8
+Specification-Vendor: Oracle, corp.
+Implementation-Title: org.nkiesel.backport 
+Implementation-Version: 1.0
+Implementation-Vendor: nkiesel
