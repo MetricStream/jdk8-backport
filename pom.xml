@@ -4,7 +4,7 @@
   <groupId>com.nkiesel</groupId>
   <artifactId>jdk8-backport</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>jdk8-backport</name>
   <url>http://maven.apache.org</url>
 	<build>
