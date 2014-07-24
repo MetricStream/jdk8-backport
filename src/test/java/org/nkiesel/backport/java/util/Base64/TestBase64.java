@@ -426,9 +426,13 @@ public class TestBase64 {
                 // wrap stream
                 checkIOE(new Testable() {
                     public void test() throws IOException {
-                        try (InputStream is = dec.wrap(new ByteArrayInputStream(srcBytes))) {
+						InputStream is = null;
+                        try {
+							is = dec.wrap(new ByteArrayInputStream(srcBytes));
                             while (is.read() != -1);
-                        }
+                        } finally {
+							if (is != null) is.close();
+						}
                 }});
             }
         }
